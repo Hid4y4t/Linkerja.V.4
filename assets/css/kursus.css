@@ -1,0 +1,553 @@
+.kursus-mulai {
+    max-width: 1600px;
+    /* margin: 100px auto; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.kursus-mulai .main-video-container {
+    flex: 1 1 900px;
+    border-radius: 5px;
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, .1); */
+    /* background-color: rgb(125, 209, 237); */
+    padding: 15px;
+}
+
+.kursus-mulai .main-video-container .main-video {
+    margin-bottom: 7px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.kursus-mulai .main-video-container .main-vid-title {
+    font-size: 25px;
+    color: #444;
+    font-weight: bold;
+}
+
+.kursus-mulai .video-list-container {
+    flex: 1 1 350px;
+    height: 650px;
+    overflow-y: scroll;
+    border-radius: 5px;
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, .1); */
+    background-color: rgb(147, 147, 147);
+    padding: 15px;
+}
+
+.kursus-mulai .video-list-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.kursus-mulai .video-list-container::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.kursus-mulai .video-list-container::-webkit-scrollbar-thumb {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.kursus-mulai .video-list-container .list {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    background-color: #eee;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.kursus-mulai .video-list-container .list:last-child {
+    margin-bottom: 0;
+}
+
+.kursus-mulai .video-list-container .list.active {
+    background-color: #444;
+}
+
+.kursus-mulai .video-list-container .list.active .list-title {
+    color: #fff;
+}
+
+.kursus-mulai .video-list-container .list .list-video {
+    width: 100px;
+    border-radius: 5px;
+}
+
+.kursus-mulai .video-list-container .list .list-title {
+    font-size: 17px;
+    color: #444;
+}
+
+.gambaran-umum img {
+    max-width: 25px;
+    margin-right: 5px;
+}
+
+.gambaran-umum {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.body-inti {
+    width: 950px;
+    margin-left: 20px;
+}
+
+
+/* === */
+
+.pengumuman img {
+    max-width: 25px;
+    margin-right: 5px;
+}
+
+.pengumuman {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* ======== */
+
+.ulasan img {
+    max-width: 25px;
+    margin-right: 5px;
+}
+
+.ulasan {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* ===== */
+
+.pertanyaan img {
+    max-width: 25px;
+    margin-right: 5px;
+}
+
+.pertanyaan {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* ===== */
+
+.sertifikat img {
+    max-width: 25px;
+    margin-right: 5px;
+}
+
+.sertifikat {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* ========== */
+
+.deskripsi {
+    border-bottom: 1px solid black;
+}
+
+.deskripsi .judul {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.deskripsi .body-deskripsi {
+    text-align: justify;
+    padding: 5px;
+}
+
+
+/* ====== */
+
+.instruktur {
+    border-bottom: 1px solid black;
+}
+
+.instruktur .judul {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.instruktur .body-instruktur .identitas {
+    display: flex;
+}
+
+.instruktur .body-instruktur .identitas .foto img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.instruktur .body-instruktur .identitas .nama {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.instruktur .body-instruktur .sosmed {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.instruktur .body-instruktur .sosmed img {
+    max-width: 30px;
+    margin: 10px;
+}
+
+.instruktur .body-instruktur .tentang {
+    text-align: justify;
+    padding: 10px;
+}
+
+
+/* ============ */
+
+.pengumuman-isi .pengumuman-konten:hover {
+    transform: scale(1.02);
+    transition: .5s;
+}
+
+.pengumuman-isi .pengumuman-konten {
+    border: 1px solid rgb(81, 251, 249);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(190, 255, 243);
+    margin-bottom: 10px;
+}
+
+.pengumuman-isi .pengumuman-konten .nama {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pengumuman-isi .pengumuman-konten .waktu {
+    color: rgb(175, 175, 175);
+    /* margin-left: 10px; */
+    margin-top: -5px;
+    border-bottom: 1px solid blue;
+}
+
+
+/* =========== */
+
+.ulasan-ratting {
+    border: 1px solid rgb(0, 251, 255);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ulasan-ratting .jumlah p {
+    font-size: 50px;
+    font-weight: bold;
+    color: orange;
+}
+
+.ulasan-ratting .jumlah .rating {
+    margin-top: -24px;
+}
+
+.ulasan-ratting .jumlah .rating .checked {
+    color: orange;
+}
+
+
+/* ====== */
+
+.beri-ulasan {
+    margin-top: 20px;
+}
+
+.beri-ulasan input[type="text"] {
+    width: 250px;
+    height: 50px;
+    border: 1px solid rgb(81, 240, 255);
+    /* border-radius: 7px 0 0 7px; */
+}
+
+.beri-ulasan input[type="button"] {
+    height: 50px;
+    width: 90px;
+    border-radius: 0 7px 7px 0;
+    margin-left: -5px;
+    border: 1px solid rgb(81, 240, 255);
+    background-color: rgb(210, 249, 236);
+}
+
+fieldset,
+label {
+    margin: 0;
+    padding: 0;
+}
+
+.rating2 {
+    border: none;
+    float: left;
+    margin-top: 25px;
+    margin-left: 5px;
+    border: 1px solid rgb(81, 240, 255);
+    background-color: rgb(210, 249, 236);
+    height: 50px;
+    border-radius: 7px 0 0 7px;
+}
+
+.rating2>input {
+    display: none;
+}
+
+.rating2>label:before {
+    margin: 5px;
+    font-size: 1.25em;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+}
+
+.rating2>.half:before {
+    content: "\f089";
+    position: absolute;
+}
+
+.rating2>label {
+    color: rgb(0, 0, 0);
+    float: right;
+}
+
+
+/***** CSS untuk hover nya *****/
+
+.rating2>input:checked~label,
+
+/* memperlihatkan warna emas pada saat di klik */
+
+.rating2:not(:checked)>label:hover,
+
+/* hover untuk star berikutnya */
+
+.rating2:not(:checked)>label:hover~label {
+    color: #FFD700;
+}
+
+
+/* hover untuk star sebelumnya  */
+
+.rating2>input:checked+label:hover,
+
+/* hover ketika mengganti rating */
+
+.rating2>input:checked~label:hover,
+.rating>label:hover~input:checked~label,
+
+/* seleksi hover */
+
+.rating2>input:checked~label:hover~label {
+    color: #FFED85;
+}
+
+
+/* ===== */
+
+.ulasan img {
+    height: 50%;
+}
+
+.ulasan-kirim {
+    margin-top: 50px;
+}
+
+.ulasan-kirim .card-ulasan {
+    border: 1px solid rgb(205, 239, 250);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(205, 239, 250);
+    margin-bottom: 10px;
+}
+
+.ulasan-kirim .card-ulasan .head {
+    display: flex;
+}
+
+.ulasan-kirim .card-ulasan .head .foto img {
+    max-width: 50px;
+}
+
+.ulasan-kirim .card-ulasan .head .nama {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.ulasan-kirim .card-ulasan .waktu {
+    color: rgb(139, 139, 139);
+    margin-left: 10px;
+}
+
+.ulasan-kirim .card-ulasan .jumlah-ratting .rating .checked {
+    color: #FFD700;
+    margin-top: 10px;
+}
+
+.download-serifikat-selesai button img {
+    max-width: 20px;
+}
+
+.download-serifikat-selesai button {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: aqua;
+    border: none;
+}
+
+.download-serifikat-selesai p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/* ======================================== */
+
+.download-sertifikat-konfirmasi {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(218, 241, 238, 0.11);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    right: -100vw;
+    transition: .5s;
+}
+
+
+/* ================ */
+
+.download-sertifikat-konfirmasi h3 {
+    color: black;
+}
+
+.download-sertifikat-konfirmasi .head .keluar-download img {
+    max-width: 40px;
+    float: right;
+    cursor: pointer;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.download-sertifikat-konfirmasi .head .keluar-download img:hover {
+    transform: rotate(360deg);
+}
+
+.download-sertifikat-konfirmasi .head p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #eee;
+}
+
+.download-sertifikat-konfirmasi .head {
+    border: 1px solid rgb(7, 151, 164);
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(7, 151, 164);
+}
+
+.download-sertifikat-konfirmasi .head button {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+    border: none;
+}
+
+.download-sertifikat-konfirmasi .head button:hover {
+    background-color: rgb(114, 210, 247);
+    border: none;
+}
+
+
+/* ========== */
+
+@media (max-width:1200px) {
+    .kursus-mulai {
+        margin: 0;
+    }
+}
+
+@media (max-width:450px) {
+    .kursus-mulai .video-list-container {
+        color: #fff;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+    .kursus-mulai .main-video-container .main-vid-title {
+        font-size: 15px;
+        text-align: center;
+    }
+    .kursus-mulai .video-list-container .list {
+        display: flex;
+        gap: 10px;
+    }
+    .kursus-mulai .video-list-container .list .list-video {
+        width: 10%;
+    }
+    .kursus-mulai .video-list-container .list .list-title {
+        font-size: 15px;
+        text-align: left;
+    }
+    .body-inti {
+        width: 350px;
+        margin-left: 20px;
+    }
+    .beri-ulasan input[type="text"] {
+        width: 200px;
+        height: 30px;
+        border: 1px solid rgb(81, 240, 255);
+        /* border-radius: 7px 0 0 7px; */
+    }
+    .beri-ulasan input[type="button"] {
+        height: 30px;
+        width: 80px;
+        border-radius: 0 7px 7px 0;
+        margin-left: -10px;
+        border: 1px solid rgb(81, 240, 255);
+        background-color: rgb(210, 249, 236);
+    }
+    .rating2 {
+        height: 30px;
+        width: 200px;
+        text-align: center;
+        background: none;
+        border: none;
+    }
+    .rating2>label:before {
+        margin: 2px;
+        font-size: 1em;
+        font-family: FontAwesome;
+        display: inline-block;
+        content: "\f005";
+    }
+}

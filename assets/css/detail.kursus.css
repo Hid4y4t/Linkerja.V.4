@@ -1,0 +1,115 @@
+.heads {
+    display: flex;
+    justify-content: space-between;
+}
+
+.back img {
+    max-width: 30px;
+}
+
+.back a {
+    text-decoration: none;
+}
+
+.head-kursus .judul-kursus p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.head-kursus .keterangan-kursus {
+    font-size: 15px;
+    margin-top: -20px;
+    color: rgb(89, 89, 88);
+}
+
+.head-kursus .rating .checked {
+    color: darkorange;
+    margin-top: -30px;
+}
+
+.head-kursus .mentor p {
+    color: rgb(102, 134, 241);
+}
+
+.head-kursus .pembaruan {
+    margin-top: -10px;
+}
+
+.head-kursus .pembaruan img {
+    max-width: 30px;
+}
+
+.body-kursus {
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.body-kursus .foto img {
+    max-width: 100%;
+    border-radius: 7px 7px 0 0;
+}
+
+.body-kursus p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.body-kursus .beli button {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: aquamarine;
+}
+
+.body-kursus .beli img {
+    max-width: 20px;
+}
+
+.cangkupan-kursus img {
+    max-width: 30px;
+}
+
+.persyaratan img {
+    max-width: 20px;
+}
+
+.persyaratan ul li {
+    list-style: none;
+}
+
+.yang-dipelajari ul li {
+    list-style: none;
+}
+
+.yang-dipelajari img {
+    max-width: 20px;
+}
+
+.deskripsi p {
+    text-align: justify;
+}
+
+@media screen and (max-width:760px) {
+    .head-kursus .judul-kursus p {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .body-kursus {
+        border: 1px solid black;
+        width: 300px;
+        height: 150px;
+        border-radius: 7px;
+        margin-bottom: 20px;
+    }
+    .body-kursus .foto img {
+        max-width: 100%;
+        border-radius: 7px 7px 0 0;
+    }
+}

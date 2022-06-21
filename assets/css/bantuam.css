@@ -1,0 +1,150 @@
+body {
+    background-image: url('../img/bg-new.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.body3 {
+    background-color: rgb(73, 75, 77, 0.7);
+    padding-top: 20px;
+}
+
+.grid .card-body button {
+    height: 80px;
+    width: 160px;
+    /* margin: 20px; */
+    border-radius: 10px;
+    background-color: rgba(220, 221, 221, 0.5);
+    border: none;
+    color: rgb(243, 246, 249);
+}
+
+.grid .card-body button:hover {
+    color: black;
+    background-color: #a5fffb;
+    border-radius: 20px;
+    /* border: 1px solid #ECECEC; */
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+    transform: scale(1.09);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+}
+
+.cards2 {
+    border-radius: 20px;
+    width: 90%;
+    height: 190px;
+    box-shadow: 2px 2px 3px #303030;
+    background-color: rgba(234, 244, 255, 0.5);
+    border: none;
+}
+
+.cards2 img {
+    margin-top: 5px;
+    max-width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.cards2 a button {
+    background-color: #2bbcff;
+    height: 40px;
+    width: 130px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px #616060;
+}
+
+.cards2 a button:hover {
+    background-color: #2bffae;
+    border-radius: 13px;
+}
+
+.cards2 p {
+    margin-top: -10px;
+    color: black;
+}
+
+
+/* =========================================================================================== */
+
+
+/* detail */
+
+.back img {
+    max-width: 30px;
+}
+
+.back button {
+    border: none;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.qna {
+    position: fixed;
+    position: absolud;
+    z-index: 1000;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    left: -100vw;
+    transition: 0.5s;
+}
+
+.qna .card {
+    overflow-y: scroll;
+    height: 400px;
+    background-color: #f4f4f4;
+    width: 1000px;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 5px 4px 5px rgb(73, 75, 77, 0.5);
+}
+
+.qna .card .keluar img {
+    max-width: 30px;
+    float: right;
+    cursor: pointer;
+    position: fixed;
+    /* z-index: 10001; */
+}
+
+.qna .card .head img {
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.qna .card .judul {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.qna .card .body {
+    text-align: justify;
+    margin: 10px;
+}
+
+@media screen and (max-width: 600) {
+    .cards2 {
+        display: block;
+    }
+}

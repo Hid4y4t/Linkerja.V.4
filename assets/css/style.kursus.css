@@ -1,0 +1,1081 @@
+button a {
+    color: #ffffff;
+}
+
+hr {
+    border: 0;
+    height: 2em;
+    background: #9cdfe8;
+}
+
+body {
+    background-image: url('../img/b.png');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3 {
+    color: #2517f0;
+    font-size: calc(1em + 1vw);
+    font-family: 'Times New Roman', Times, serif;
+    /* font-weight: 0; */
+    /* text-shadow: -0.0075em 0.0075em 0 #f2fdfe, 0.005em 0.005em 0 #a5edf6, 0.01em 0.01em 0 #64dff0, 0.015em 0.015em #aef2f7, 0.02em 0.02em 0 #b3cbf8, 0.025em 0.025em 0 #b7eef8, 0.03em 0.03em 0 #bcf2f8, 0.035em 0.035em 0 #23d4fc; */
+}
+
+h6 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #6d6d6d;
+    /* padding: 10px; */
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: black;
+}
+
+.headers {
+    background: url('../../kursus/img/banner_youtube3.jpg');
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    /* border-radius: 0 0 80% 80% / 30%; */
+}
+
+.headers .overlay {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #333;
+    background-image: linear-gradient( 135deg, #05e6ff69 10%, #0c08fd6b 100%);
+}
+
+.headers .overlay h2 {
+    position: relative;
+    z-index: 3;
+}
+
+.headers .overlay img {
+    position: absolute;
+    max-width: 200px;
+    z-index: 2;
+    margin-left: -400px;
+}
+
+.profile2 {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 60%;
+    overflow: hidden;
+    cursor: pointer;
+    border: 4px solid #ffffff;
+}
+
+span img {
+    max-width: 30px;
+}
+
+.pembayaran {
+    text-align: center;
+}
+
+.pembayaran .btn2 button {
+    border-radius: 40px;
+    width: 250px;
+    height: 50px;
+    background-color: #17a4f0;
+    color: #f2fdfe;
+    border: 0;
+}
+
+.pembayaran .btn2 button:hover {
+    background-color: #2517f0;
+    color: #FFD700;
+}
+
+.pembayaran .btn2 button img {
+    max-width: 30px;
+    /* margin-right: 10px; */
+    /* opacity: 0.5;
+        transition: 0.5s; */
+}
+
+.keuntungan h5 {
+    color: #2e2e2e;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.keuntungan ul li {
+    list-style: none;
+    padding: 5px;
+    /* display: flex; */
+    /* align-items: center; */
+    margin-left: 1px;
+}
+
+.keuntungan ul li img {
+    max-width: 20px;
+    /* margin-right: 10px; */
+}
+
+.keuntungan ul li:hover img {
+    opacity: 1;
+}
+
+.keuntungan ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    font-weight: 500;
+}
+
+.Keuntungan ul li:hover a {
+    color: rgb(0, 217, 255);
+}
+
+
+/* [[[[[[[[[[[[[[[[[[[ */
+
+.profile2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* header 2 */
+
+.user button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #FFD700;
+    border: 2px;
+    width: 50px;
+    height: 50px;
+    border-radius: 70px;
+    background-color: #0c0c0e;
+    float: right;
+    margin-right: 10px;
+}
+
+.user button:hover {
+    background-color: #17a4f0;
+    color: #000202;
+}
+
+.user button i {
+    position: relative;
+    margin-top: 15px;
+    /* float: inline-start; */
+}
+
+
+/* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+
+.search-box {
+    /* width: fit-content;
+        height: fit-content; */
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    /* margin-top: 5px; */
+    margin-bottom: 8px;
+    /* padding: 10px; */
+    /* margin-right: 60px; */
+}
+
+.input-search {
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color: #17a4f0;
+    padding-right: 40px;
+    color: rgb(9, 9, 9);
+}
+
+.input-search::placeholder {
+    color: rgba(18, 114, 187, 0.5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    /* background-color: #0c0c0e; */
+    padding: 10px;
+}
+
+.btn-search {
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color: #0c0c0e;
+    background-color: transparent;
+    pointer-events: painted;
+}
+
+.btn-search:focus~.input-search {
+    width: 300px;
+    border-radius: 0px;
+    /* background-color: transparent; */
+    border-bottom: 1px solid rgba(4, 4, 4, 0.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.input-search:focus {
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+
+/* header2 */
+
+
+/* kursus terpopuler */
+
+.product-item {
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 20px;
+    margin-top: -10px;
+}
+
+.product-img {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    /* height: 200px; */
+    border-radius: 20px 20px 0px 0px;
+}
+
+.btns {
+    margin-top: 10px;
+}
+
+.btns button {
+    border-radius: 10px;
+    border: none;
+    background-color: #17a4f0;
+    height: 30px;
+}
+
+.heart-icon {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    font-size: 18px;
+}
+
+.product-type {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.product-name {
+    transition: all 0.3s ease-in-out;
+    font-size: 10px;
+}
+
+.product-name:hover {
+    color: bisque !important;
+}
+
+.product-price {
+    color: #20B2AA;
+}
+
+.rating {
+    font-size: 13px;
+    color: #FFD700;
+}
+
+.product-info {
+    height: 170px;
+    background-color: #f2fdfe;
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+/* end kursus terpopuler */
+
+
+/* ============================================================================================ */
+
+
+/* dtail */
+
+
+/* konten1 */
+
+.konten1 {
+    margin: 10px;
+    border: 1px solid #f2fdfe;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f2fdfe;
+}
+
+
+/* end konten1 */
+
+
+/* profile */
+
+.konten1 h4 img {
+    width: 9%;
+}
+
+.action {
+    position: fixed;
+    top: 95px;
+    right: 30px;
+}
+
+.action .profile {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 60%;
+    overflow: hidden;
+    cursor: pointer;
+    border: 4px solid #ffffff;
+}
+
+.action .profile img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.action .menu {
+    position: absolute;
+    top: 120px;
+    right: -10px;
+    padding: 5px 10px;
+    background-color: rgb(31, 133, 242);
+    width: 230px;
+    box-sizing: 0 5px 25px rbg(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 1;
+}
+
+.action .menu.active {
+    top: 80px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.action .menu::before {
+    content: '';
+    position: absolute;
+    top: -5;
+    right: 28px;
+    width: 20px;
+    height: 20px;
+    /* background: rgb(246, 247, 252); */
+    transition: rotate(45deg);
+}
+
+.action .menu h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    padding: 5px 0;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(233, 254, 255);
+    line-height: 1.2em;
+}
+
+.action .menu h3 span {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(188, 194, 192);
+    font-weight: 400;
+}
+
+.action .menu ul li {
+    list-style: none;
+    padding: 10px 0;
+    border-top: 1px solid rgb(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+}
+
+.action .menu ul li img {
+    max-width: 20px;
+    margin-right: 10px;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.action .menu ul li:hover img {
+    opacity: 1;
+}
+
+.action .menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.action .menu ul li:hover a {
+    color: rgb(0, 217, 255);
+}
+
+
+/* end profile */
+
+
+/* Ulasan */
+
+.ulasan img {
+    max-width: 100px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: block;
+    /* float: right; */
+}
+
+.ulasan {
+    border: 1px solid #1e88b3;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #f2fdfe;
+    margin-bottom: 20px;
+}
+
+
+/* end Ulasan */
+
+
+/* -=============================================================== */
+
+.frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.frame button {
+    margin: 2px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    padding: 5px 15px;
+    border: 2px solid rgb(36, 192, 231);
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+.btn-9 {
+    z-index: 2;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.btn-9:after {
+    position: absolute;
+    content: " ";
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.btn-9:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5), -4px -4px 6px 0 rgba(116, 125, 136, .2), inset -4px -4px 6px 0 rgba(255, 255, 255, .5), inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+    color: #fff;
+}
+
+.btn-9:hover:after {
+    -webkit-transform: scale(2) rotate(180deg);
+    transform: scale(2) rotate(180deg);
+    background: rgb(36, 192, 231);
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5), -4px -4px 6px 0 rgba(116, 125, 136, .2), inset -4px -4px 6px 0 rgba(255, 255, 255, .5), inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+}
+
+
+/* ================================================================= */
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.btn-kursus {
+    background-color: rgb(28, 202, 245);
+    border: 0;
+    color: #696969;
+    padding: 0.5rem;
+    text-transform: lowercase;
+    margin-bottom: -12px;
+    border-radius: 10px;
+}
+
+.btn-kursus:hover {
+    background-color: burlywood;
+}
+
+.btn-kursus {
+    display: block;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cards__item {
+    display: flex;
+    padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+    .cards__item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 56rem) {
+    .cards__item {
+        width: 33.3333%;
+    }
+}
+
+.card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card:hover .card__image {
+    filter: contrast(100%);
+}
+
+.card__content {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.card__image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    filter: contrast(70%);
+    overflow: hidden;
+    position: relative;
+    transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+}
+
+.card__image::before {
+    content: "";
+    display: block;
+}
+
+.card__title {
+    color: #696969;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid;
+}
+
+.cards__item .card .card__text h5 {
+    font-size: 0.875rem;
+    color: #aeaeae;
+    margin-top: 2px;
+}
+
+.cards__item .card .card__text h6 {
+    color: #3ccfe9;
+    margin-top: -20px;
+}
+
+.cards__item .card .card__content .btn-full-kursus img {
+    max-width: 20px;
+}
+
+.cards__item .card .card__content .btn-full-kursus button {
+    width: 45%;
+    height: 45px;
+    border: 0;
+    border-radius: 30px;
+    background-color: #3ccfe9;
+}
+
+.cards__item .card .card__content .btn-full-kursus button:hover {
+    background-color: #22f017;
+}
+
+.pencarian1 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    /* background-color: var(--primary-color); */
+    background-color: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    right: -100vw;
+    transition: .5s;
+    z-index: 9;
+}
+
+.pencarian1 .keluar img {
+    max-width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.rekomendasi2 button {
+    width: 200px;
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(7, 101, 113);
+    border: none;
+    color: aliceblue;
+}
+
+.rekomendasi2 button:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.rekomendasi2 p {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button-kursus {
+    display: flex;
+    margin-left: 28%;
+}
+
+.kursus-saya button {
+    width: 220px;
+    height: 60px;
+    border: none;
+    background-color: rgb(43, 226, 104);
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.kursus-saya button:hover {
+    transform: scale(1.08);
+    transition: .5s;
+}
+
+.cari-kursus button {
+    width: 220px;
+    height: 60px;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.cari-kursus button:hover {
+    -transform: scale(1.08);
+    transition: .5s;
+}
+
+.cari-kursus2 {
+    position: absolute;
+    z-index: 10;
+    margin-top: 300px;
+}
+
+.cari-kursus2 p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cari-kursus2 input[type="text"] {
+    height: 40px;
+    width: 400px;
+    font-size: 30px;
+    border-radius: 7px 0 0 7px;
+    border: none;
+    padding: 5px;
+    color: #000202;
+}
+
+.cari-kursus2 input[type="button"] {
+    height: 40px;
+    width: 100px;
+    font-size: 29px;
+    margin-left: -5px;
+    border-radius: 0 7px 7px 0;
+    border: none;
+    background-color: #1e88b3;
+}
+
+@media screen and (max-width: 768px) {
+    .cari-kursus button {
+        width: 120px;
+        height: 20px;
+        border: none;
+        margin-left: -60px;
+        background-color: blueviolet;
+        border-radius: 20px;
+        color: aliceblue;
+        font-size: 10px;
+    }
+    .cari-kursus button:hover {
+        -webkit-transform: scale(1.08);
+        transition: .5s;
+    }
+    /* kursus */
+    .kursus-teratas .item {
+        border: 1px solid black;
+        border-radius: 8px;
+        height: 290px;
+        width: 170px;
+    }
+    .kursus-teratas .item .submit button {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 3px;
+        border-radius: 20px;
+        border: none;
+        height: 30px;
+        font-size: 10px;
+    }
+    .kursus-teratas .item .submit .detail button img {
+        max-width: 20px;
+        position: absolute;
+        margin-top: -5px;
+        margin-left: 25px;
+    }
+    .kursus-teratas .item .submit .keranjang button img {
+        max-width: 20px;
+        position: absolute;
+        margin-top: -4px;
+        margin-left: 10px;
+    }
+    .rekomendasi button {
+        width: 100px;
+        height: 30px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        background-color: rgb(126, 232, 247);
+        border: none;
+    }
+    .pencarian1 .keluar img {
+        max-width: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        cursor: pointer;
+        margin-bottom: 30px;
+    }
+    .rekomendasi2 button {
+        width: 100px;
+        height: 30px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .rekomendasi2 p {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .cari-kursus2 p {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .cari-kursus2 input[type="text"] {
+        height: 30px;
+        width: 200px;
+        font-size: 30px;
+        border-radius: 7px 0 0 7px;
+        border: none;
+        padding: 5px;
+    }
+    .cari-kursus2 input[type="button"] {
+        height: 30px;
+        width: 50px;
+        font-size: 24px;
+        margin-left: -5px;
+        border-radius: 0 7px 7px 0;
+        border: none;
+    }
+    .kursus-saya button {
+        width: 100px;
+        height: 20px;
+        border: none;
+        background-color: rgb(43, 226, 104);
+        border-radius: 20px;
+        color: aliceblue;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Space+Mono:700");
+* {
+    box-sizing: border-box;
+}
+
+.center-wrapper {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 600px;
+    border: 1px solid lemonchiffon;
+    background: white;
+}
+
+.help {
+    padding: 0.5rem 1rem;
+}
+
+.btn-go-checkout {
+    color: white;
+}
+
+.logo {
+    font-family: "Space Mono", sans-serif;
+}
+
+.fa-search,
+.fa-arrow-left,
+.fa-lock {
+    margin-right: 1rem;
+}
+
+.top-bar,
+.bag-head::after,
+.bag-total::before {
+    background: whitesmoke;
+}
+
+.bag-head::after,
+.bag-total::before,
+.btn-remove {
+    display: block;
+}
+
+.bag-head::after,
+.bag-total::before,
+.description-text,
+.promo-checkbox {
+    margin: 0.5rem 0;
+}
+
+.bag-head::after,
+.bag-total::before {
+    content: "";
+    width: 100%;
+    height: 3px;
+}
+
+.muted {
+    color: grey;
+}
+
+ ::-moz-placeholder {
+    font-size: 0.8rem;
+}
+
+ :-ms-input-placeholder {
+    font-size: 0.8rem;
+}
+
+.image {
+    width: 40%;
+}
+
+.image img.product-image {
+    max-width: 90%;
+}
+
+.description {
+    padding-right: 1rem;
+    width: 60%;
+}
+
+select {
+    padding: 0.3rem;
+    width: 60px;
+}
+
+select,
+button,
+input[type=text] {
+    height: 40px;
+}
+
+.button-chek button {
+    cursor: pointer;
+    width: 100px;
+    background: none;
+    border: 2px solid #9966cc;
+    border-radius: 4px;
+}
+
+select {
+    width: 50px;
+    margin-right: 1rem;
+}
+
+.bag-product,
+.quantity-wrapper,
+.subtotal,
+.delivery,
+.total,
+.promo-code {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total {
+    margin-bottom: 1rem;
+}
+
+.change-delivery {
+    color: #9966cc;
+}
+
+input[type=text],
+.btn-go-checkout {
+    font-size: 1rem;
+}
+
+input[type=text] {
+    width: calc(100% - 100px - 1rem);
+    padding: 0.5rem;
+}
+
+.chekout5 .btn-go-checkout {
+    margin-top: 1rem;
+    width: 100%;
+    height: 40px;
+    background: #9966cc;
+    box-shadow: 0 3px 6px 2px gainsboro;
+    color: #ffffff;
+}
+
+.chekout5 .btn-go-checkout span {
+    color: #f8ffff;
+}
+
+.promo-code button {
+    background-color: #ec9147;
+    width: 40%;
+}
+
+.chekout5 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    right: -100vw;
+    transition: 0.5s;
+    z-index: 1000;
+}
+
+.bag-head button {
+    width: 100%;
+    background-color: #ec4747;
+    border: none;
+    color: #f8ffff;
+}
+
+.button-kursus {
+    display: flex;
+    margin-left: 28%;
+}
+
+@media screen and (max-width: 600) {
+    .button-kursus {
+        display: flex;
+        margin-left: -500px;
+    }
+}
