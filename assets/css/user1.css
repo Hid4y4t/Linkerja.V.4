@@ -362,7 +362,7 @@ body {
     }
     .card-kursus {
         width: 50%;
-        height: 150px;
+        height: 180px;
         border: 1px solid rgb(231, 231, 231);
         border-radius: 10px;
         box-shadow: 2px 4px 4px rgb(0, 0, 0, 0.5);
@@ -452,10 +452,11 @@ body {
         width: 100%;
         background-image: linear-gradient(rgb(247, 247, 247), rgb(226, 255, 245));
         padding: 10px;
-        height: 100%;
+        height: 80%;
         margin-top: -30px;
     }
     .form-edit {
+        margin-top: -10px;
         border: 1px solid rgb(241, 241, 241);
         padding: 10px;
         border-radius: 10px;
@@ -497,7 +498,7 @@ body {
         width: 100%;
     }
     .foto-upload {
-        margin-top: 30px;
+        margin-top: 7px;
     }
     .submit {
         background-color: #08d;
